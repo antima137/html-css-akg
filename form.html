@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        food
+        <input list="food" name="food">
+        <datalist id="food">
+            <option value="pizza">pizza</option>
+            <option value="pasta">pasta</option>
+            <option value="noodles">noodles</option>
+            <option value="burger">burger</option>
+        </datalist>
+        <input type="range" name="r1" id="r1">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="num">Number</label>
+        <input type="number" name="num" id="num" step="0.1">
+        
+        <input type="radio" name="radio" id="radio">
+        <label for="radio">Food</label>
+        <br>
+        <input type="checkbox" name="cb" id="cb">
+        <label for="checkbox">garbage</label>
+        <br>
+        <label for="select">select one</label>
+        <select name="select" id="select">
+        <option value="pizza">pizza</option>
+        <option value="noodles" selected>noodles</option></select>
+        <textarea name="text" id="text">textarea</textarea>
+        <fieldset>
+            <legend>enter name:</legend>
+        </fieldset>
+        
+        <input type="button" value="Submit" onclick="">
+    </form>
+</body>
+</html>
